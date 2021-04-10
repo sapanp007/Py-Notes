@@ -17,3 +17,8 @@ sed '1,3d' survey_results_schema.csv
 sed '1,$d' survey_results_schema.csv
 
 cat survey_results_schema.csv
+
+::zip
+tar -cvzf filename.tar.gz
+::unzip
+tar -xvzf sample.tar.gz
