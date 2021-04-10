@@ -3,27 +3,27 @@ Steps:
 1. prepare base case where we know the exact return
 2. get the pattern and then relate
 """
-
-#print sum of all non negative ints up to n
-# def sum(n):
-# 	if n == 0:
-# 		return 0
-# 	else:
-# 		return sum(n-1)+n
-# print(sum(8))
-
-
-l1 = [4, 90, 1, 3, 81, 98, 81, 98]
-l2 = [{90: 5}, 5, [2, 3, 4], [{81: 9, 98: 1}, {81: 9, 98: 2}], 9, 0, 9, 0]
-z1 = sorted(list(zip(l1, l2)))
-print(z1)
-l3 = [4, 90, 1, 3, 81, 98, 81, 98]
-l4 = [{90: 5}, 5, [2, 3, 4], {81: 9, 98: 2}, {81: 9, 98: 1}, 9, 0, 9, 0]
-z2 = sorted(list(zip(l3, l4)))
-print(z2)
-final_z = sorted(list(zip(z1, z2)))
-print(final_z)
-
-# for i in final_z:
-# 	if i[0][1] != i[1][1]:
-
+# d = {}
+#
+#
+# def sum_r(n):
+#     if n - 1 in d:
+#         return n + d[n - 1]
+#     else:
+#         if n == 1:
+#             return 1
+#         else:
+#             d[n - 1] = sum_r(n - 1)
+#             return n + d[n-1]
+#
+#
+# def sum_d(n):
+#     if n == 1:
+#         return 1
+#     else:
+#         return sum_d(n-1) + n
+#
+#
+# # print(sum_r(5))
+# for i in range(1, 1001):
+#     print(i, sum_r(i))
