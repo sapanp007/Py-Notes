@@ -1,3 +1,17 @@
+"""datetime module """
+
+# from datetime import datetime, timedelta
+# print(datetime.now())
+# print(datetime.now().strftime('%d-%b-%Y %H %M %S'))
+# x = datetime.now().strftime('%d-%b-%Y %H %M %S')
+# print(type(datetime.now().strftime('%d-%b-%Y %H %M %S')))
+# print(datetime.now()+ timedelta( days = 3, hours = 65, minutes = 7, seconds =78)) # years and months doesn't work
+# d = datetime(1993, 12, 1 , 1, 13, 13)
+# print(d)
+# z = datetime.strptime(x, '%d-%b-%Y %H %M %S')
+# print(type(z),z)
+
+""" argparse module"""
 # import argparse
 # parser = argparse.ArgumentParser()
 # parser.add_argument("--s",help='Store a simple value')
