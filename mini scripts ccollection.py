@@ -8,6 +8,32 @@
 # results = parser.parse_args()
 # print(f's value = {results.s}')
 
+# import argparse
+# def main():
+# 	print(args.s)
+# if __name__ == "__main__":
+# 	parser = argparse.ArgumentParser()
+# 	parser.add_argument("a",help = "it assigns a value")
+# 	parser.add_argument("--s",help = "it assigns a value", type = int , default = 89, required = True)
+# 	args = parser.parse_args()
+# 	main()
+
+"""
+keys-  
+    type
+    required
+    default
+    help
+- or -- makes args optional arguments
+without - and -- it makes that param mandatory
+I don't see a combine usage of  default and required = True usage together
+"""
+
+# import subprocess
+# # result = subprocess.run("ls", shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE)
+# result = subprocess.run("awk -F' ' '{print $1}'  123.txt", stdout = subprocess.PIPE, shell = True )
+# for i in result.stdout.decode().split('\n'):
+# 	print(i)
 
 # import subprocess
 # res=subprocess.run("cd /Users/ ; cd sappradh/Documents && ls -lrt | grep Python",shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
