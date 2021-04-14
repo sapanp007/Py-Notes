@@ -1,15 +1,22 @@
-"""datetime module """
+
+"""logging and datetime module """
 
 # from datetime import datetime, timedelta
+# import logging
+# log_etn = datetime.now().strftime('%d_%b_%Y_%H_%M_%S')
+# logging.basicConfig(filename = f"log_file_{log_etn}.log", level = logging.INFO, format = '%(asctime)s - %(message)s')
+# # format names - process, asctime, message
 # print(datetime.now())
 # print(datetime.now().strftime('%d-%b-%Y %H %M %S'))
 # x = datetime.now().strftime('%d-%b-%Y %H %M %S')
 # print(type(datetime.now().strftime('%d-%b-%Y %H %M %S')))
-# print(datetime.now()+ timedelta( days = 3, hours = 65, minutes = 7, seconds =78)) # years and months doesn't work
-# d = datetime(1993, 12, 1 , 1, 13, 13)
+# print(datetime.now() + timedelta(days = 3, hours = 65, minutes = 7, seconds = 78)) # years and months doesn't work
+# d = datetime(1993, 12, 1, 1, 13, 13)
 # print(d)
 # z = datetime.strptime(x, '%d-%b-%Y %H %M %S')
 # print(type(z),z)
+# logging.info("all done")
+
 
 """ argparse module"""
 # import argparse
