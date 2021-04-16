@@ -1151,6 +1151,17 @@ I don't see a combine usage of  default and required = True usage together
 ##########################################################################
 
 ############## 	Windows app interaction
+
+# from pywinauto import application
+# app = application.Application()
+# app.connect(title_re = ".*Notepad.*")
+# app_dialog = app.top_window()
+# app_dialog.minimize()
+# app_dialog.restore()
+# app_dialog.maximize()
+# app_dialog.close()
+
+
 # import warnings
 # import random
 # import time
