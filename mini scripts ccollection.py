@@ -1277,3 +1277,23 @@ I don't see a combine usage of  default and required = True usage together
 # x = zip(l1,l2,l3,l4)
 # for i in x:
 # 	print(i)
+
+""" __new__ method"""
+# class B:
+# 	x = 90
+# 	def __init__(self,*args, **kwargs):
+# 		print(self)
+#
+# class A:
+# 	def __new__(cls, *args, **kwargs):
+# 		print(cls, args, kwargs)
+# 		# ins = object.__new__(B)
+# 		ins = super().__new__(cls)
+# 		print(ins)
+# 		return ins
+#
+# 	def __init__(self,*args, **kwargs):
+# 		print("inside A init")
+#
+# a = A(45,45, sapan =  90)
+
