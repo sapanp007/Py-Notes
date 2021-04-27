@@ -25,7 +25,7 @@ class JsonParse:
             for key, value in json_data.items():
                 self.keys.append(key)
                 self.values.append(value)
-                if isinstance(value, dict) or isinstance(value, list):
+                if isinstance(value, (dict, list)):
                     self.get_keys_and_values(value)
         elif isinstance(json_data, list):
             for data in json_data:
@@ -36,7 +36,7 @@ if __name__ == "__main__":
     j1 = JsonParse(json1)
     print(json1)
     print(j1.keys)
-    print(j1.values)
+    print([i for i in j1.values if not isinstance(i,(dict))])
 
     # j2 = JsonParse(json2)
     # print(json2)

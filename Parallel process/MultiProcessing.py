@@ -67,9 +67,11 @@ if __name__ == "__main__":
     p1.join()
     print(sq_arr[:], total_sum.value)
 
-"""Server process : Whenever a python program starts, a server process is also started. From there on, whenever a new process is needed, the parent process connects to the server and requests it to fork a new process.
+"""Server process : Whenever a python program starts, a server process is also started. From there on, 
+whenever a new process is needed, the parent process connects to the server and requests it to fork a new process.
 A server process can hold Python objects and allows other processes to manipulate them using proxies.
-multiprocessing module provides a Manager class which controls a server process. Hence, managers provide a way to create data which can be shared between different processes."""
+multiprocessing module provides a Manager class which controls a server process. Hence, 
+managers provide a way to create data which can be shared between different processes."""
 import multiprocessing as mp
 
 
