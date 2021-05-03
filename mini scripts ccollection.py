@@ -1204,6 +1204,10 @@ I don't see a combine usage of  default and required = True usage together
 # r = re.search(r'\["(?P<name>[^"]*)","(?P<number1>[^"]*)","(?P<data>[^"]*)",(?P<number2>\d*),"(?P<website>[^"]*)","(?P<language>[^"]*)"\]', TEXT).groupdict()
 # print(r)
 
+# s = '\nvlan 101\nname One \n\n interface vlan101\n description Routing VLAN\n ip address 100.100.101.0 255.255.255.0'
+# import re
+# pattern = re.compile(r'\nvlan (?P<vlan>\d+)\nname (?P<name>[a-zA-Z]+)[\s\S]* address (?P<ip_address>[\.\d ]+)')
+# print(pattern.search(s).groupdict())
 
 # print(r)
 # text = """73.92.19.149 - - [13/Mar/2021:20:44:37 +0000] "GET /images/icons/common/Icon_Protect.svg HTTP/1.1" 200 6090 "https://prosimodemo.admin.prosimo.io/dashboard/main" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
