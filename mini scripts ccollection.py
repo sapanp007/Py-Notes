@@ -14,6 +14,9 @@
 # d = datetime(1993, 12, 1, 1, 13, 13)
 # print(d)
 # z = datetime.strptime(x, '%d-%b-%Y %H %M %S')
+# from datetime import datetime
+# date_string = "Feb 25 2020 9:20PM" #AM/PM
+# print(datetime.strptime(date_string,'%b %d %Y %I:%M%p'))
 # print(type(z),z)
 # logging.info("all done")
 
