@@ -39,7 +39,7 @@ if __name__ == "__main__":
     # a = [5, 8, 12, 56, 100]
     # b = [5, 9, 45, 51]
     # print(merge_two_sorted_lists(a, b))
-    a = [1, 4, 3, 2, 4, 2, 5]
+    a = [9,8,6,3,2,1]
     merge_sort(a)
     print(a)
 
